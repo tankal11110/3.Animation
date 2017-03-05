@@ -1,0 +1,38 @@
+.menu{
+	margin: 10px 20px 10px 0;
+	border: 1px black solid;
+	border-radius:5%;
+	cursor:pointer;
+	width:100px;
+	text-align:center;
+	background-color:#ffffff;
+	color:#000000;
+	}
+.menu__title{
+	
+}
+.menu:hover{
+	background-color:black;
+	color:white;
+}
+.menu_hidden{
+	list-style:none;
+	width:100px;
+	
+	display:none;
+	padding:0;
+}
+.menu_hidden li{
+	padding-bottom:10px;
+}
+.header-nav__menu :last-child{
+		padding-bottom:0;
+}
+.menu_hidden a{
+	
+	text-decoration:none;
+	color:#ff6a4a;
+}
+.menu_hidden a:hover{
+	color:#ffffff;
+}
